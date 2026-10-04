@@ -1,0 +1,13 @@
+{
+  "grade_aliases": {"отл": 5, "хор": 4, "удовл": 3, "неуд": 2},
+  "credit_aliases": {"зачет": "зачёт", "незачет": "незачёт"},
+  "valid_grades": [2, 3, 4, 5],
+  "credit_values": ["зачёт", "незачёт"],
+  "absent_mark": "н/я",
+  "last_attempt_counts": true,
+  "stipend": {
+    "academic": {"min_grade": 4, "amount": 3000},
+    "increased": {"min_grade": 5, "amount": 6000}
+  },
+  "eligible_funding": "бюджет"
+}
