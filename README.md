@@ -38,6 +38,5 @@ py -m venv .venv
 .\.venv\Scripts\python.exe generator.py --count 30 --error-rate 0.2 --output generated
 ```
 
-На Linux/macOS замените `.\.venv\Scripts\python.exe` на `.venv/bin/python`.
 Генератор записывает отдельный набор данных в `generated`.
 Параметры запуска доступны через `main.py --help` и `generator.py --help`.
